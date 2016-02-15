@@ -124,9 +124,7 @@ This application requires two machines to run through the demo. The users need t
 
 14. Go to the Bluemix catalog, select the Twilio service, choose to leave it unbound, name it `assistant-shop-r-twilio`, populate Account SID and Auth Token using your credentials from step 13, and finally click Create.
 
-15. Currently, Twilio Video is in beta, so you will need to [request access to the beta program][twilio_video_beta], designating that you would like access to the JavaScript SDK.
-
-16. Push your app to Bluemix
+15. Push your app to Bluemix
 
   ```
   $ cf push
